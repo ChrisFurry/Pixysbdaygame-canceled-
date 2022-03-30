@@ -5,6 +5,7 @@
     {"id":{"name":"player_control","path":"scripts/player_control/player_control.yy",},"order":1,},
     {"id":{"name":"player_jump_move","path":"scripts/player_jump_move/player_jump_move.yy",},"order":3,},
     {"id":{"name":"player_floor","path":"scripts/player_floor/player_floor.yy",},"order":0,},
+    {"id":{"name":"player_crouching","path":"scripts/player_crouching/player_crouching.yy",},"order":4,},
     {"id":{"name":"player_move","path":"scripts/player_move/player_move.yy",},"order":0,},
     {"id":{"name":"ani_create","path":"scripts/ani_create/ani_create.yy",},"order":0,},
     {"id":{"name":"player_change_character","path":"scripts/player_change_character/player_change_character.yy",},"order":1,},

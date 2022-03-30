@@ -7,19 +7,19 @@ function player_control(){
 		accspd = accelrun;
 	}
 	
-	if(input_hor != 0){
-		if(input_hor == sign(velX))dir = input_hor;
+	if(input_hor != 0 && !crouching){
+		if(input_hor == sign(intertia))dir = input_hor;
 		
-		if((input_hor == sign(velX) && abs(velX) < maxspd) || velX == 0)velX += accel * input_hor;
-		if((input_hor != sign(velX)) && velX != 0)velX += decelskid * input_hor;
-		if(abs(velX) > maxspd)velX = max(abs(velX) - decel,maxspd) * sign(velX);
+		if((input_hor == sign(intertia) && abs(intertia) < maxspd) || intertia == 0)intertia += accel * input_hor;
+		if((input_hor != sign(intertia)) && intertia != 0)intertia += decelskid * input_hor;
+		if(abs(intertia) > maxspd)intertia = max(abs(intertia) - decel,maxspd) * sign(intertia);
 	}else{
-		velX = max(abs(velX) - decel,0) * sign(velX);
+		intertia = max(abs(intertia) - decel,0) * sign(intertia);
 	}
 	
-	if(velX == 0){
+	if(intertia == 0){
 		nextAni = playerAni.idle;
-	}else if(abs(velX) < runvel){
+	}else if(abs(intertia) < runvel){
 		nextAni = playerAni.walk;
 	}else{
 		nextAni = playerAni.run;

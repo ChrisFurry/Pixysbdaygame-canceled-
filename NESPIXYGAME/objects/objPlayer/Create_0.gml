@@ -5,6 +5,7 @@ characterID	= 0; // Which Character you playin as
 // Speed Variables
 velX		= 0; // X Velocity
 velY		= 0; // Y Velocity
+intertia	= 0; // lol sonic stuff
 
 // Movement Constants
 accel		= $1A;
@@ -63,6 +64,10 @@ grounded	= false;
 
 // Buffers
 invframes	= 0;
+landbuffer	= 0;
+
+// Flags
+crouching	= false;
 
 // Input
 input = -1;

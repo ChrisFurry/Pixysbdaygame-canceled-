@@ -1,7 +1,7 @@
 function player_animate(){
 	var playerspecificscript = function(){ // Ignore me unless used for player stuff
 		if(object_index == objPlayer){
-			if(anim == playerAni.walk || anim == playerAni.run)defTimeFrame = floor(max(0, $A - (abs(velX) / 256)));
+			if(anim == playerAni.walk || anim == playerAni.run)defTimeFrame = floor(max(0, $A - (abs(intertia) / 256)));
 		}
 	}
 	// Grab Animation Data
@@ -16,11 +16,11 @@ function player_animate(){
 		playerspecificscript();
 		timeFrame = defTimeFrame;
 	}
-	playerspecificscript();
 	// Delay Ani Timer && Delay Time
 	//delayAni = max(delayAni - 1,0);
 	timeFrame = max(timeFrame - 1,0);
 	if(timeFrame <= 0){
+		playerspecificscript();
 		timeFrame = defTimeFrame;
 		aniframe ++;
 		switch(data[aniframe]){
