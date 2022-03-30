@@ -1,10 +1,10 @@
 function player_move(){
 	// Fixed point code
-	var fixedto = 4096;
+	var fixedto = 256;
 	x *= fixedto;
 	y *= fixedto;
 	x += velX;
-	y += velY;
-	x = floor(floor(x) / fixedto);
-	y = floor(floor(y) / fixedto);
+	y += clamp(velY,-velYCap,velYCap);
+	x = floor(x) / fixedto;
+	y = floor(y) / fixedto;
 }

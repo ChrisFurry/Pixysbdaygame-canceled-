@@ -17,6 +17,6 @@ if(screen.screensize){
 	var windowPosX = window_get_x();
 	var windowPosY = window_get_y();
 	window_set_position(windowPosX + ((windowPrevW - windowNewW) / 2),windowPosY + ((windowPrevH - windowNewH) / 2));
-	// Fuck you variable
+	// lol
 	screen.screensize = false;
 }
