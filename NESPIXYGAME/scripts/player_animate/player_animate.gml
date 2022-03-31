@@ -1,7 +1,7 @@
 function player_animate(){
 	var playerspecificscript = function(){ // Ignore me unless used for player stuff
 		if(object_index == objPlayer){
-			if(anim == playerAni.walk || anim == playerAni.run)defTimeFrame = floor(max(0, $A - (abs(intertia) / 256)));
+			if(anim == playerAni.walk || anim == playerAni.run)defTimeFrame = floor(max(0, 8 - (abs(velX) / 256)));
 		}
 	}
 	// Grab Animation Data

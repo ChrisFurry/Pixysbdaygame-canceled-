@@ -2,24 +2,20 @@ function player_control(){
 	var input_hor = input.right - input.left;
 	var maxspd = walkvel;
 	var accspd = accel;
-	if(input.b){
-		maxspd = runvel;
-		accspd = accelrun;
-	}
 	
 	if(input_hor != 0 && !crouching){
-		if(input_hor == sign(intertia))dir = input_hor;
+		if(input_hor == sign(velX))dir = input_hor;
 		
-		if((input_hor == sign(intertia) && abs(intertia) < maxspd) || intertia == 0)intertia += accel * input_hor;
-		if((input_hor != sign(intertia)) && intertia != 0)intertia += decelskid * input_hor;
-		if(abs(intertia) > maxspd)intertia = max(abs(intertia) - decel,maxspd) * sign(intertia);
+		if((input_hor == sign(velX) && abs(velX) < maxspd) || velX == 0)velX += accel * input_hor;
+		if((input_hor != sign(velX)) && velX != 0)velX += decelskid * input_hor;
+		if(abs(velX) > maxspd)velX = max(abs(velX) - decel,maxspd) * sign(velX);
 	}else{
-		intertia = max(abs(intertia) - decel,0) * sign(intertia);
+		velX = max(abs(velX) - decel,0) * sign(velX);
 	}
 	
-	if(intertia == 0){
+	if(velX == 0){
 		nextAni = playerAni.idle;
-	}else if(abs(intertia) < runvel){
+	}else if(abs(velX) < runvel){
 		nextAni = playerAni.walk;
 	}else{
 		nextAni = playerAni.run;

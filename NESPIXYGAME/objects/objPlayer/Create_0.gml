@@ -12,8 +12,8 @@ accel		= $1A;
 accelrun	= $2C;
 decel		= $1A;
 decelskid	= $2C;
-walkvel		= $200;
-runvel		= $630;
+walkvel		= $400;
+runvel		= $400;
 
 // Air Constants
 jumphigh	= $800;
@@ -61,6 +61,22 @@ hitWid		= 6;
 hitHei		= 12;
 hitY		= 0;
 grounded	= false;
+angle		= 0;
+
+// Tile
+tileLayerNames[0] = "CollTiles";
+solidLayer = 0;
+floor_id = false;
+floor_type = "None";
+floor_flip = false;
+floor_mirror = false;
+wall_id = false;
+wall_type = "None";
+ceiling_id = false;
+ceiling_type = "None";
+// Temp Data
+tempTileData_Mirror = false;
+tempTileData_Flip = false;
 
 // Buffers
 invframes	= 0;
