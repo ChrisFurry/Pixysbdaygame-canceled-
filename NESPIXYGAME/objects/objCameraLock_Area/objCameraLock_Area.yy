@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprSolid",
-    "path": "sprites/sprSolid/sprSolid.yy",
+    "name": "sprCameraLock_Area",
+    "path": "sprites/sprCameraLock_Area/sprCameraLock_Area.yy",
   },
   "solid": false,
   "visible": false,
@@ -20,17 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  "eventList": [],
+  "properties": [
+    {"varType":1,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"camera_id","tags":[],"resourceType":"GMObjectProperty",},
   ],
-  "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Solid",
-    "path": "folders/Objects/Solid.yy",
+    "name": "Camera Stuff",
+    "path": "folders/Objects/Camera Stuff.yy",
   },
   "resourceVersion": "1.0",
-  "name": "parSolid",
+  "name": "objCameraLock_Area",
   "tags": [],
   "resourceType": "GMObject",
 }

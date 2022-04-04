@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-camxoffset = 0;
 cam = {
 	x: 0,
 	y: 0,
@@ -8,8 +7,8 @@ cam = {
 		x: 0,
 		y: 0,
 	},
-	camspd: 16,
-	cammovebackspd: 2,
+	speed: 16,
+	movebackspd: 2,
 }
 camlock = {
 	u: 0,

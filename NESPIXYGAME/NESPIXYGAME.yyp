@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"objCameraLock_Trigger","path":"objects/objCameraLock_Trigger/objCameraLock_Trigger.yy",},"order":2,},
     {"id":{"name":"objMysteryBlock","path":"objects/objMysteryBlock/objMysteryBlock.yy",},"order":0,},
     {"id":{"name":"player_hurt","path":"scripts/player_hurt/player_hurt.yy",},"order":4,},
     {"id":{"name":"sprTileCollInd","path":"sprites/sprTileCollInd/sprTileCollInd.yy",},"order":1,},
@@ -14,13 +15,16 @@
     {"id":{"name":"sprMysteryBlock","path":"sprites/sprMysteryBlock/sprMysteryBlock.yy",},"order":0,},
     {"id":{"name":"sprLevelTiles","path":"sprites/sprLevelTiles/sprLevelTiles.yy",},"order":2,},
     {"id":{"name":"player_floor","path":"scripts/player_floor/player_floor.yy",},"order":0,},
+    {"id":{"name":"objCameraLock_Area","path":"objects/objCameraLock_Area/objCameraLock_Area.yy",},"order":0,},
     {"id":{"name":"player_crouching","path":"scripts/player_crouching/player_crouching.yy",},"order":4,},
     {"id":{"name":"player_move","path":"scripts/player_move/player_move.yy",},"order":0,},
     {"id":{"name":"sprBrickBlock","path":"sprites/sprBrickBlock/sprBrickBlock.yy",},"order":1,},
     {"id":{"name":"player_routine_dead","path":"scripts/player_routine_dead/player_routine_dead.yy",},"order":1,},
     {"id":{"name":"sprSkin_Pixy","path":"sprites/sprSkin_Pixy/sprSkin_Pixy.yy",},"order":2,},
     {"id":{"name":"objGameover","path":"objects/objGameover/objGameover.yy",},"order":2,},
+    {"id":{"name":"sprCameraLock_Area","path":"sprites/sprCameraLock_Area/sprCameraLock_Area.yy",},"order":1,},
     {"id":{"name":"ani_create","path":"scripts/ani_create/ani_create.yy",},"order":0,},
+    {"id":{"name":"sprCameraLock_Trigger","path":"sprites/sprCameraLock_Trigger/sprCameraLock_Trigger.yy",},"order":3,},
     {"id":{"name":"player_change_character","path":"scripts/player_change_character/player_change_character.yy",},"order":1,},
     {"id":{"name":"player_input","path":"scripts/player_input/player_input.yy",},"order":0,},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"order":1,},
@@ -114,6 +118,7 @@
     {"folderPath":"folders/Sounds/Player.yy","order":1,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Level.yy","order":5,"resourceVersion":"1.0","name":"Level","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Level.yy","order":4,"resourceVersion":"1.0","name":"Level","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Camera Stuff.yy","order":6,"resourceVersion":"1.0","name":"Camera Stuff","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

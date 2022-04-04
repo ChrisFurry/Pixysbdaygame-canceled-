@@ -8,8 +8,8 @@ velY		= 0; // Y Velocity
 intertia	= 0; // lol sonic stuff
 
 // Movement Constants
-accel		= $1A;
-accelrun	= $2C;
+accel		= $10;
+//accelrun	= $2C;
 decel		= $1A;
 decelskid	= $2C;
 walkvel		= $400;
