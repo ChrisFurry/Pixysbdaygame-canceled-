@@ -20,4 +20,8 @@ function player_control(){
 	}else{
 		nextAni = playerAni.run;
 	}
+	if(input_hor != sign(velX) && input_hor != 0 && velX != 0){
+		nextAni = playerAni.skid;
+		play_sound(sndSkid,3)
+	}
 }

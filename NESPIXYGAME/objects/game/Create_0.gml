@@ -19,6 +19,8 @@ screen = {
 tileangle = [
 0,0,45,22.5,22.5
 ]
+// Sounds
+soundchannel = [-1,-1,-1,-1];
 // Set up screen
 // Change View (Just in case)
 view_enabled = true;

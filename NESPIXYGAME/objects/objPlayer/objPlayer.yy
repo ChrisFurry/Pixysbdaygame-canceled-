@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprSkin_Chris",
-    "path": "sprites/sprSkin_Chris/sprSkin_Chris.yy",
+    "name": "sprSkin_Pixy",
+    "path": "sprites/sprSkin_Pixy/sprSkin_Pixy.yy",
   },
   "solid": false,
   "visible": true,

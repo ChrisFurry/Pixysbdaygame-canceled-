@@ -17,13 +17,14 @@ runvel		= $400;
 
 // Air Constants
 jumphigh	= $800;
-jumplow		= $200;
+jumplow		= $10;
 grav		= $44;
 velYCap		= $600;
 
 // State stuff
 routine		= player_routine_common; // Routine of scripts to go through
 status		= player_status_normal; // Status, what is played
+hurt		= false;				// Checks if the player was hurt
 
 // Animation Variables
 anim				= -1; // Current animation playing
@@ -36,7 +37,7 @@ delayAni			= 0; // Delay until next animation
 aniLength			= 0; // Animation length
 dir					= 1; // Direction the player is facing
 player_animationscripts();
-current_aniscript	= chrisanimationscripts; // Holds the current array of scripts
+current_aniscript	= pixyanimationscripts; // Holds the current array of scripts
 // Animation Enum
 enum playerAni {
 	idle,
@@ -44,8 +45,10 @@ enum playerAni {
 	crouch,
 	walk,
 	run,
+	skid,
 	jump,
 	fall,
+	dead
 }
 #macro afEnd			-1 // End of animation, goes to frame 0
 #macro afBack			-2 // Goes back a set amount of frames
@@ -56,9 +59,9 @@ enum playerAni {
 
 // Sensor stuff
 width		= 7;
-height		= 16;
+height		= 6;
 hitWid		= 6;
-hitHei		= 12;
+hitHei		= 6;
 hitY		= 0;
 grounded	= false;
 angle		= 0;

@@ -3,4 +3,5 @@ function player_jump(){
 	velY = -jumphigh;
 	grounded = false;
 	status = player_status_jump;
+	play_sound(sndJump,2);
 }

@@ -1,7 +1,7 @@
 /// @description Room Start
 if(room == rmInit){
 	//screen.screensize = true;
-	room_goto(rmTest);
+	room_goto(rmFullGame);
 }
 screen.screensize = true;
 
