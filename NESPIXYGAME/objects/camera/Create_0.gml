@@ -9,6 +9,7 @@ cam = {
 	},
 	speed: 16,
 	movebackspd: 2,
+	followobject: objPlayer,
 }
 camlock = {
 	u: 0,

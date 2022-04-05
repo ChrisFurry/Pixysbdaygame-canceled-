@@ -1,13 +1,13 @@
 /// @description MoveCamera
 
-if(objPlayer.routine != player_routine_dead){ // Target code!
+if(instance_exists(cam.followobject) && cam.followobject != -1){ // Target code!
 	cam.target.x += (game.screen.xscale / 2);
 	cam.target.y += (game.screen.yscale / 2);
 	// Margins
-	cam.target.x = max(cam.target.x,objPlayer.x - margin.r);
-	cam.target.x = min(cam.target.x,objPlayer.x - margin.l);
-	cam.target.y = max(cam.target.y,objPlayer.y - margin.d);
-	cam.target.y = min(cam.target.y,objPlayer.y - margin.u);
+	cam.target.x = max(cam.target.x,cam.followobject.x - margin.r);
+	cam.target.x = min(cam.target.x,cam.followobject.x - margin.l);
+	cam.target.y = max(cam.target.y,cam.followobject.y - margin.d);
+	cam.target.y = min(cam.target.y,cam.followobject.y - margin.u);
 	
 	cam.target.x -= (game.screen.xscale / 2);
 	cam.target.y -= (game.screen.yscale / 2);

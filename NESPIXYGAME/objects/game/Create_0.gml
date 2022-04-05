@@ -1,4 +1,9 @@
 /// @description INIT
+global.pizzr = 0;
+checkpointPizzr = 0;
+gotcheckpoint = 0;
+checkpointx = 0;
+checkpointy = 0;
 // Input
 key = {
 	up: vk_up,

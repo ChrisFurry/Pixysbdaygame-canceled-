@@ -20,3 +20,4 @@ if(screen.screensize){
 	// lol
 	screen.screensize = false;
 }
+layer_set_visible(layer_get_id("CollTiles"),false)
