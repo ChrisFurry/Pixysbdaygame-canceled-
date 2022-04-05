@@ -1,10 +1,14 @@
 function player_levelbound(){
-	if(x < 0){
+	if(x < camera.camlock.l){
 		velX = 0;
-		x = 0;
+		x = camera.camlock.l;
 	}
-	if(y >= room_height){
+	if(x > camera.camlock.r){
+		velX = 0;
+		x = camera.camlock.r;
+	}
+	if(y >= camera.camlock.d){
 		hurt = true;
-		y = room_height;
+		y = camera.camlock.d;
 	}
 }
