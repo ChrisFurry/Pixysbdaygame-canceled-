@@ -42,8 +42,10 @@
     {"id":{"name":"sndJump","path":"sounds/sndJump/sndJump.yy",},"order":0,},
     {"id":{"name":"sprCheckpointGot","path":"sprites/sprCheckpointGot/sprCheckpointGot.yy",},"order":3,},
     {"id":{"name":"sprSkin_Chris","path":"sprites/sprSkin_Chris/sprSkin_Chris.yy",},"order":0,},
+    {"id":{"name":"objOnlyMenu","path":"objects/objOnlyMenu/objOnlyMenu.yy",},"order":4,},
     {"id":{"name":"player_jump_height","path":"scripts/player_jump_height/player_jump_height.yy",},"order":2,},
     {"id":{"name":"player_getangle","path":"scripts/player_getangle/player_getangle.yy",},"order":0,},
+    {"id":{"name":"rmOnlyMenu","path":"rooms/rmOnlyMenu/rmOnlyMenu.yy",},"order":3,},
     {"id":{"name":"player_jump","path":"scripts/player_jump/player_jump.yy",},"order":0,},
     {"id":{"name":"player_status_normal","path":"scripts/player_status_normal/player_status_normal.yy",},"order":0,},
     {"id":{"name":"player_coll_check_point","path":"scripts/player_coll_check_point/player_coll_check_point.yy",},"order":2,},
@@ -89,6 +91,7 @@
     {"roomId":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},},
     {"roomId":{"name":"rmTest","path":"rooms/rmTest/rmTest.yy",},},
     {"roomId":{"name":"rmFullGame","path":"rooms/rmFullGame/rmFullGame.yy",},},
+    {"roomId":{"name":"rmOnlyMenu","path":"rooms/rmOnlyMenu/rmOnlyMenu.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

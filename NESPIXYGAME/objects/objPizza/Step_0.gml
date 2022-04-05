@@ -2,7 +2,7 @@
 // You can write your code in this editor
 var collected = false;
 
-if(point_in_rectangle(objPlayer.x,objPlayer.y,bbox_left,bbox_top,bbox_right,bbox_bottom)){
+if(rectangle_in_rectangle(objPlayer.x - objPlayer.hitWid,objPlayer.y - objPlayer.hitHei,objPlayer.x + objPlayer.hitWid,objPlayer.y + objPlayer.hitHei,bbox_left,bbox_top,bbox_right,bbox_bottom)){
 	collected = true;
 }
 

@@ -5,7 +5,7 @@ characterID	= 0; // Which Character you playin as
 // Speed Variables
 velX		= 0; // X Velocity
 velY		= 0; // Y Velocity
-intertia	= 0; // lol sonic stuff
+//intertia	= 0; // lol sonic stuff
 
 // Movement Constants
 accel		= $10;
@@ -17,7 +17,7 @@ runvel		= $400;
 
 // Air Constants
 jumphigh	= $800;
-jumplow		= $10;
+jumplow		= $188;
 grav		= $44;
 velYCap		= $600;
 
@@ -33,7 +33,7 @@ aniframe			= 0; // Current animation frame
 nextAni				= playerAni.walk; // Next animation
 timeFrame			= 0; // Delay until next frame
 defTimeFrame		= 0; // Default delay until next frame
-delayAni			= 0; // Delay until next animation
+//delayAni			= 0; // Delay until next animation
 aniLength			= 0; // Animation length
 dir					= 1; // Direction the player is facing
 player_animationscripts();
@@ -82,8 +82,8 @@ tempTileData_Mirror = false;
 tempTileData_Flip = false;
 
 // Buffers
-invframes	= 0;
-landbuffer	= 0;
+//invframes	= 0;
+//landbuffer	= 0;
 
 // Flags
 crouching	= false;
