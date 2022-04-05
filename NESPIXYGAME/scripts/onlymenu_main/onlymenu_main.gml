@@ -15,6 +15,16 @@ function onlymenu_main(){
 				room_goto(rmFullGame);
 				break;
 			case 1:
+				controlsnumb = 0;
+				controlstruct = {
+					up: vk_up,
+					down: vk_down,
+					left: vk_left,
+					right: vk_right,
+					a: ord("Z"),
+					b: ord("X"),
+				}
+				curr_script = onlymenu_controls;
 				break;
 			case 2:
 				game_end();

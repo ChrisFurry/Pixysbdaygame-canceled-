@@ -4,6 +4,7 @@ switch(state){
 	default:
 		if(objPlayer.ceiling_id == id && objPlayer.ceiling_type == "Object"){
 			state = 1;
+			global.pizzr += 5;
 		}
 		break;
 	case 1:
