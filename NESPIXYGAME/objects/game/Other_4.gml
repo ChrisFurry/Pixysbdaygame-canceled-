@@ -1,7 +1,7 @@
 /// @description Room Start
 if(room == rmInit){
 	//screen.screensize = true;
-	room_goto(rmFullGame);
+	room_goto(rmOnlyMenu);
 }
 screen.screensize = true;
 
@@ -17,4 +17,7 @@ if(instance_exists(objPlayerSpawn)){
 	}
 	camera.cam.x = objPlayer.x - screen.xscale / 2;
 	camera.cam.y = objPlayer.y - screen.yscale / 2;
+	
+	camera.cam.x = clamp(camera.cam.x,camera.camlock.l,camera.camlock.r - screen.xscale);
+	camera.cam.y = clamp(camera.cam.y,camera.camlock.u,camera.camlock.d - screen.yscale);
 }
