@@ -72,6 +72,7 @@
     {"id":{"name":"objPlayerSpawn","path":"objects/objPlayerSpawn/objPlayerSpawn.yy",},"order":1,},
     {"id":{"name":"objCheckpointTrigger","path":"objects/objCheckpointTrigger/objCheckpointTrigger.yy",},"order":0,},
     {"id":{"name":"player_wallcoll","path":"scripts/player_wallcoll/player_wallcoll.yy",},"order":3,},
+    {"id":{"name":"READ ME Enemies","path":"notes/READ ME Enemies/READ ME Enemies.yy",},"order":1,},
     {"id":{"name":"sprSolid","path":"sprites/sprSolid/sprSolid.yy",},"order":0,},
     {"id":{"name":"play_sound","path":"scripts/play_sound/play_sound.yy",},"order":0,},
     {"id":{"name":"rmTest","path":"rooms/rmTest/rmTest.yy",},"order":1,},
