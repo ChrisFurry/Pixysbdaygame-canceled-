@@ -7,7 +7,9 @@ if(rectangle_in_rectangle(objPlayer.x - objPlayer.hitWid,objPlayer.y - objPlayer
 }
 
 if(collected){
-	global.pizzr ++;
+	global.pizzr += 10;
+	var tex = instance_create_depth(x,y,0,objScoregottext);
+		tex.giventext = "10";
 	var eff = instance_create_depth(x,y,depth,objEffect);
 	eff.sprite_index = sprPizzrColl;
 	instance_destroy();
