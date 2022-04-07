@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"objCameraLock_Trigger","path":"objects/objCameraLock_Trigger/objCameraLock_Trigger.yy",},"order":2,},
     {"id":{"name":"objMysteryBlock","path":"objects/objMysteryBlock/objMysteryBlock.yy",},"order":0,},
+    {"id":{"name":"sprHornHopper","path":"sprites/sprHornHopper/sprHornHopper.yy",},"order":0,},
     {"id":{"name":"player_hurt","path":"scripts/player_hurt/player_hurt.yy",},"order":4,},
     {"id":{"name":"player_routine_nothing","path":"scripts/player_routine_nothing/player_routine_nothing.yy",},"order":2,},
     {"id":{"name":"fntPressStartPlayer2","path":"fonts/fntPressStartPlayer2/fntPressStartPlayer2.yy",},"order":0,},
@@ -40,6 +41,7 @@
     {"id":{"name":"player_wallcollision","path":"scripts/player_wallcollision/player_wallcollision.yy",},"order":4,},
     {"id":{"name":"sndSkid","path":"sounds/sndSkid/sndSkid.yy",},"order":1,},
     {"id":{"name":"objCheckpointGot","path":"objects/objCheckpointGot/objCheckpointGot.yy",},"order":3,},
+    {"id":{"name":"objHornHopper","path":"objects/objHornHopper/objHornHopper.yy",},"order":0,},
     {"id":{"name":"parSolid","path":"objects/parSolid/parSolid.yy",},"order":0,},
     {"id":{"name":"sndJump","path":"sounds/sndJump/sndJump.yy",},"order":0,},
     {"id":{"name":"sprCheckpointGot","path":"sprites/sprCheckpointGot/sprCheckpointGot.yy",},"order":3,},
@@ -143,6 +145,8 @@
     {"folderPath":"folders/Scripts/OnlyMenu.yy","order":5,"resourceVersion":"1.0","name":"OnlyMenu","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Effects.yy","order":8,"resourceVersion":"1.0","name":"Effects","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Effects.yy","order":6,"resourceVersion":"1.0","name":"Effects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Enemies.yy","order":9,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Enemies.yy","order":7,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
