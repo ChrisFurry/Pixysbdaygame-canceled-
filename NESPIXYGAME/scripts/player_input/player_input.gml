@@ -2,6 +2,7 @@ function player_input(){
 	var input,gamepadon,gamepad_right=0,gamepad_left=0,gamepad_up=0,gamepad_down=0,gamepad_a=0,gamepad_b=0;
 	var gamepad_right2=0,gamepad_left2=0,gamepad_up2=0,gamepad_down2=0,gamepad_a2=0,gamepad_b2=0;
 	var gp_num = gamepad_get_device_count();
+	gamepadon = -1;
 	for (var i = 0; i < gp_num; i++;)
 	{
 	    if gamepad_is_connected(i) gamepadon = i;

@@ -8,5 +8,7 @@ if(rectangle_in_rectangle(objPlayer.x - objPlayer.hitWid,objPlayer.y - objPlayer
 
 if(collected){
 	global.pizzr ++;
+	var eff = instance_create_depth(x,y,depth,objEffect);
+	eff.sprite_index = sprPizzrColl;
 	instance_destroy();
 }
