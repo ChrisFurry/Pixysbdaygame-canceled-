@@ -10,6 +10,10 @@ cam = {
 	speed: 16,
 	movebackspd: 2,
 	followobject: objPlayer,
+	shake: {
+		x: 0,
+		y: 0,
+	},
 }
 camlock = {
 	u: 0,

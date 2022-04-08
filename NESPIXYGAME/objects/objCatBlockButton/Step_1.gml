@@ -13,4 +13,5 @@ if(global.catblock){
 }
 if(objPlayer.floor_id == id && objPlayer.floor_type == "Object"){
 	global.catblock = true;
+	camera.cam.shake.y = 10;
 }

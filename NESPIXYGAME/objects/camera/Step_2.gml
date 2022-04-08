@@ -1,5 +1,10 @@
 /// @description MoveCamera
-
+// Shake Stuff
+cam.x -= cam.shake.x * ((cam.shake.x mod 2 == 0) ? -1 : 1);
+cam.y -= cam.shake.y * ((cam.shake.y mod 2 == 0) ? -1 : 1);
+cam.shake.x = max(cam.shake.x - 1,0);
+cam.shake.y = max(cam.shake.y - 1,0);
+// Target code
 if(instance_exists(cam.followobject) && cam.followobject != -1){ // Target code!
 	cam.target.x += (game.screen.xscale / 2);
 	cam.target.y += (game.screen.yscale / 2);
@@ -29,7 +34,8 @@ if(cam.y != cam.target.y){
 		}else{cam.y = max(cam.y - (cam.speed),round(cam.target.y))}
 	}
 }
-
+cam.x += cam.shake.x * ((cam.shake.x mod 2 == 0) ? -1 : 1);
+cam.y += cam.shake.y * ((cam.shake.y mod 2 == 0) ? -1 : 1);
 
 //camxoffset = clamp(camxoffset + (objPlayer.dir * 2),-64,64);
 
