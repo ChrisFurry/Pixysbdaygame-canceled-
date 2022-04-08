@@ -1,5 +1,6 @@
 /// @description INIT
 global.pizzr = 0;
+global.catblock = false;
 global.gameDebug = false;
 checkpointPizzr = 0;
 gotcheckpoint = 0;

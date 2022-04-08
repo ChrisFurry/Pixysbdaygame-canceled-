@@ -12,6 +12,7 @@ function onlymenu_main(){
 	if(keyboard_check_pressed(vk_enter)){
 		switch(menuopt){
 			case 0:
+				global.catblock = false;
 				room_goto(rmFullGame);
 				break;
 			case 1:
