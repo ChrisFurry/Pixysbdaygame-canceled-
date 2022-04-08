@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprHornHopper",
-    "path": "sprites/sprHornHopper/sprHornHopper.yy",
+    "name": "sprHornHopperStill",
+    "path": "sprites/sprHornHopperStill/sprHornHopperStill.yy",
   },
   "solid": false,
   "visible": true,

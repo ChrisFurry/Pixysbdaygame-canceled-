@@ -19,7 +19,7 @@ if(rectangle_in_rectangle(objPlayer.x - objPlayer.hitWid,objPlayer.y - objPlayer
 		var tex = instance_create_depth(x,y,0,objScoregottext);
 		tex.giventext = "100";
 		var deb = instance_create_depth(x,y,0,objDebre);
-		deb.sprite_index = sprHonkerDebre;
+		deb.sprite_index = sprHonkerDebreStill;
 		deb.hspeed = 2 * sign(objPlayer.velX);
 		deb.vspeed = -2;
 		deb.gravity = 0.2;
