@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Catblock",
-    "path": "folders/Sprites/Catblock.yy",
+    "path": "folders/Sprites/Level/Catblock.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprCatButton",

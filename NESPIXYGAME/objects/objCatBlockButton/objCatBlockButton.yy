@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "CatBlock",
-    "path": "folders/Objects/CatBlock.yy",
+    "path": "folders/Objects/Level/CatBlock.yy",
   },
   "resourceVersion": "1.0",
   "name": "objCatBlockButton",
