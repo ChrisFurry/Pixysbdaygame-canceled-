@@ -4,6 +4,7 @@ switch(state){
 		if(objPlayer.ceiling_id == id && objPlayer.ceiling_type == "Object"){
 			state = 1;
 			global.pizzr += 100;
+			play_sound(sndBlockHit,1);
 			var tex = instance_create_depth(x,y,0,objScoregottext);
 			tex.giventext = "100";
 			var eff = instance_create_depth(x + 8,y + 8,depth - 1,objEffect);

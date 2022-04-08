@@ -4,7 +4,7 @@ if(!object_is_active())exit;
 image_index = 0;
 if(velY < 0)image_index = 1;
 
-x -= 1 * image_xscale;
+//x -= 1 * image_xscale;
 y += velY;
 velY += grav;
 
@@ -24,7 +24,7 @@ if(rectangle_in_rectangle(objPlayer.x - objPlayer.hitWid,objPlayer.y - objPlayer
 		deb.vspeed = -2;
 		deb.gravity = 0.2;
 		deb.image_xscale = image_xscale;
-		play_sound(sndHonkerMovingDead,1);
+		play_sound(sndHonkerStillDead,1);
 		instance_destroy();
 	}else{
 		objPlayer.hurt = true;
