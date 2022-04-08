@@ -12,6 +12,6 @@ if(collected){
 		tex.giventext = "10";
 	var eff = instance_create_depth(x,y,depth,objEffect);
 	eff.sprite_index = sprPizzrColl;
-	play_sound(sndChomp);
+	play_sound(sndChomp,2);
 	instance_destroy();
 }
