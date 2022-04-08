@@ -87,6 +87,8 @@ tempTileData_Flip = false;
 
 // Flags
 crouching	= false;
+incontrol	= true;
+paused		= false;
 
 // Input
 input = -1;

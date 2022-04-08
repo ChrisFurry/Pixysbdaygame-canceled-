@@ -1,5 +1,5 @@
 /// @description Player Stuff
 ceiling_id = -1;
 wall_id = -1;
-input = player_input();
-routine();
+if(incontrol)input = player_input();
+if(!paused)routine();
